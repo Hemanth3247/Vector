@@ -1,0 +1,74 @@
+data:
+  config:
+    ambPressure: 101324.99998565
+    burnoutThrustThres: 0.1
+    burnoutWebThres: 2.540005e-05
+    flowSeparationWarnPercent: 0.05
+    mapDim: 750
+    maxMachNumber: 0.7
+    maxMassFlux: 1406.4697609
+    maxPressure: 10342500.0
+    minPortThroat: 2.0
+    sepPressureRatio: 0.4
+    timestep: 0.03
+  grains:
+  - properties:
+      coreDiameter: 0.0075
+      diameter: 0.033
+      inhibitedEnds: Top
+      length: 0.2
+    type: BATES
+  nozzle:
+    convAngle: 45.0
+    divAngle: 90.0
+    efficiency: 0.6
+    erosionCoeff: 0.0
+    exit: 0.009000000000000001
+    slagCoeff: 0.0
+    throat: 0.0035
+    throatLength: 0.006
+  propellant:
+    density: 1750.0
+    name: Nakka - KNSB
+    tabs:
+    - a: 1.92533e-06
+      k: 1.1361
+      m: 39.9
+      maxPressure: 806715.0
+      minPressure: 103425.0
+      n: 0.625
+      t: 1520.0
+    - a: 0.66566085616
+      k: 1.1361
+      m: 39.9
+      maxPressure: 1503110.0
+      minPressure: 806715.0
+      n: -0.313
+      t: 1520.0
+    - a: 0.00952812118
+      k: 1.1361
+      m: 39.9
+      maxPressure: 3792250.0
+      minPressure: 1503110.0
+      n: -0.0145
+      t: 1520.0
+    - a: 2.70967e-06
+      k: 1.1361
+      m: 39.9
+      maxPressure: 7032900.0
+      minPressure: 3792250.0
+      n: 0.5245
+      t: 1520.0
+    - a: 0.004176772610000001
+      k: 1.1361
+      m: 39.9
+      maxPressure: 10673460.0
+      minPressure: 7032900.0
+      n: 0.059
+      t: 1520.0
+type: !!python/object/apply:uilib.fileIO.fileTypes
+- 3
+version: !!python/tuple
+- 0
+- 6
+- 1

@@ -2,16 +2,15 @@ from machine import I2C, Pin, SPI
 import time, os
 from ms5611 import MS5611
 from mpu6500 import MPU6500
-
 from sdcard import SDCard
 
 # PINS
 SDA = 4
 SCL = 5
 
-LED_R = Pin(0, Pin.OUT)
+LED_R = Pin(2, Pin.OUT)
 LED_G = Pin(1, Pin.OUT)
-LED_B = Pin(2, Pin.OUT)
+LED_B = Pin(0, Pin.OUT)
 
 MOTOR = Pin(3, Pin.OUT)
 

@@ -1,7 +1,6 @@
-# VECTOR Model Rocketry — Avionics, CAD & Documentation
-Zenith Club · Indian Institute of Technology Ropar
+# VECTOR — Model Rocketry
 
----
+Zenith Club · Indian Institute of Technology Ropar
 
 ## Contents
 - Avionics_Codes/  

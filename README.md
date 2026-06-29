@@ -1,11 +1,9 @@
-# VECTOR Rocketry — Avionics, CAD & Documentation
+# VECTOR Model Rocketry — Avionics, CAD & Documentation
 Zenith Club · Indian Institute of Technology Ropar
-
-VECTOR is the student rocketry team at IIT Ropar. This repository contains the avionics firmware and drivers (MicroPython), CAD designs, documentation and media used for the design, testing and development of experimental sounding rockets.
 
 ---
 
-## Contents (high level)
+## Contents
 - Avionics_Codes/  
   - Micropython/ — MicroPython drivers, examples and a top-level main.py to run on a MicroPython-capable board  
   - Logic/ — block diagrams, logic image and supporting HTML visualizations  
@@ -27,7 +25,7 @@ VECTOR is the student rocketry team at IIT Ropar. This repository contains the a
 
 ---
 
-## Quick start (hardware)
+## Quick start
 Prerequisites:
 - A MicroPython-capable board (ESP32, Pyboard, or similar) with the appropriate pinout and enough GPIOs for the chosen sensors.
 - A host machine with a MicroPython transfer tool (mpremote, ampy, rshell, or Thonny).
@@ -80,10 +78,6 @@ We welcome contributions from teammates and external collaborators.
 - Include wiring diagrams and test logs for hardware changes.
 
 ---
-
-## License
-(Replace this line with your chosen license.) Suggested: MIT or CC-BY for non-software assets.
-
 ---
 
 ## Contact

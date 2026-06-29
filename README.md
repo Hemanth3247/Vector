@@ -77,7 +77,6 @@ We welcome contributions from teammates and external collaborators.
 - Include wiring diagrams and test logs for hardware changes.
 
 ---
----
 
 ## Contact
 VECTOR · Zenith Club, IIT Ropar  
